@@ -20,4 +20,4 @@ const ChildDynmic = () => {
   );
 };
 
-export default memo(ChildDynmic);
+export default ChildDynmic;

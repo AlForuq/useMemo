@@ -15,7 +15,7 @@ const ChildStatic = ({ staticValue, obj, func }) => {
     >
       <h1>Child</h1>
       <h2>Static: {staticValue}</h2>
-      <h2>Static Obj value: {obj.name}</h2>
+      <h2>Static Obj value: {obj?.name}</h2>
       <h2>Static Func value: {func("hi, i am arguement")}</h2>
     </div>
   );
